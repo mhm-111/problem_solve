@@ -1,9 +1,8 @@
 This repo is about the problems which I have solved different times 
  ------------------------------------------------------------------------------------------------
 
- 
- PROBLEM-1 :   ROOT shell problem:
- ___________________________________________
+PROBLEM-1 :   ROOT shell problem:
+___________________________________________
  
 If the root shell is changed somehow you can't access root user.
 
@@ -27,23 +26,21 @@ Solution
   /usr/bin/dash   
   /bin/zsh    
  
- There may be many more shells.
+There may be many more shells.
 
+2.See the  /etc/passwd file.
 
-2. See the  /etc/passwd file.
-
-       cat /etc/passwd
+    cat /etc/passwd
  
-       root:x:0:0:root:/root:zsh
+    root:x:0:0:root:/root:zsh
   
 Here is the problem . your system can't execute zsh shell. It can't recongnize it.
 
-
-3. Replace the zsh to any other shell (ex: /bin/bash ) .You can use any text editor to edit it.
+3.Replace the zsh to any other shell (ex: /bin/bash ) .You can use any text editor to edit it.
       
-       sudo gedit /cat/passwd
+    sudo gedit /cat/passwd
  
-       root:x:0:0:root:/root:/bin/bash
+    root:x:0:0:root:/root:/bin/bash
   
  :grinning: Problem is SOLVED
  
