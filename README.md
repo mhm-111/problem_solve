@@ -5,7 +5,7 @@ This repo is about the problems which I have solved different times
  PROBLEM-1 :   ROOT shell problem:
  ___________________________________________
  
-If the root shell change somehow you can't access root .
+If the root shell is changed somehow you can't access root user.
 
 problem: >Can't access root. sudo su won't work.
 
