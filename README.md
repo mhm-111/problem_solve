@@ -5,7 +5,7 @@ This repo is about the problems which I have solved different times
  PROBLEM-1 :   ROOT shell problem:
  ___________________________________________
  
-If the shell of root change somehow you can't access root .
+If the root shell change somehow you can't access root .
 
 problem: >Can't access root. sudo su won't work.
 
@@ -18,14 +18,14 @@ Solution
 
     cat /etc/shells
  
-  /bin/sh
-  /bin/bash
-  /usr/bin/bash
-  /bin/rbash
-  /usr/bin/rbash
-  /bin/dash
-  /usr/bin/dash
-  /bin/zsh
+  /bin/sh    
+  /bin/bash    
+  /usr/bin/bash     
+  /bin/rbash     
+  /usr/bin/rbash    
+  /bin/dash    
+  /usr/bin/dash   
+  /bin/zsh    
  
  There may be many more shells.
 
